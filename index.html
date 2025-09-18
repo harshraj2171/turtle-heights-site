@@ -1,14 +1,150 @@
-<html><head><title>Turtle Heights</title></head><body><h1>Welcome to Turtle Heights</h1>
-<footer style="background-color: #000; color: #fff; text-align: center; padding: 30px; font-family: 'Georgia', serif;">
-    <div style="font-size: 24px; font-weight: bold; color: gold;">TURTLE HEIGHTS – ARPANA MUKESH</div>
-    <hr style="border: 1px solid gold; width: 60%; margin: 15px auto;">
-    <p style="margin: 5px 0;">Turtle Heights, B-72, Symbois College Road</p>
-    <p style="margin: 5px 0;">Contact: <a href="tel:+916204502810" style="color: white; text-decoration: none;">6204502810</a></p>
-    <p style="margin: 5px 0;">
-        <a href="https://wa.me/916204502810" target="_blank" style="color: #25D366; font-size: 18px; text-decoration: none;">
-            💬 Chat with us on WhatsApp
-        </a>
-    </p>
-</footer>
-</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Turtle Heights — Luxury Construction & Buildings</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Preloader / Intro Ad-style overlay -->
+  <div id="intro" class="intro">
+    <div class="intro-inner">
+      <div class="logo-wrap">
+        <!-- Gold Turtle + Building SVG mark -->
+        <svg class="mark" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#d4af37"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          <rect width="120" height="60" rx="10" fill="#0b0b0b" />
+          <g transform="translate(10,10)">
+            <path d="M8 34c6-10 26-20 44-12 14 6 22 18 18 28-3 7-16 12-34 10-18-2-30-14-28-26z" fill="url(#g1)" opacity="0.98"/>
+            <rect x="72" y="6" width="8" height="22" rx="1" fill="#d4af37"/>
+            <rect x="82" y="-2" width="8" height="30" rx="1" fill="#b8860b"/>
+          </g>
+          <text x="10" y="52" font-family="Merriweather, serif" font-size="10" fill="#f8efe0">TURTLE HEIGHTS</text>
+          <text x="80" y="52" font-family="Inter, sans-serif" font-size="8" fill="#f8efe0">ARPANA MUKESH</text>
+        </svg>
+      </div>
+      <div class="intro-text">
+        <h1>Dreaming of a space built on trust, innovation, and timeless quality?</h1>
+        <p>Guided by the vision of Arpana &amp; Mukesh — we build more than structures. We build futures.</p>
+      </div>
+      <div class="intro-cta">
+        <a id="skipBtn" class="btn ghost">Skip Intro</a>
+      </div>
+      <div class="intro-progress"><div id="bar" class="bar"></div></div>
+    </div>
+  </div>
+
+  <!-- Main site -->
+  <main id="site" class="hidden">
+    <header class="header">
+      <div class="brand">
+        <div class="brand-mark">
+          <!-- small mark -->
+          <svg viewBox="0 0 60 28" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#d4af37"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+            <rect width="60" height="28" rx="6" fill="#0b0b0b" />
+            <path d="M6 16c5-8 20-16 34-10 11 4 18 12 15 20-3 6-12 10-26 8C9 33 3 22 6 16z" fill="url(#g2)"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <div class="title">TURTLE HEIGHTS</div>
+          <div class="subtitle">ARPANA &amp; MUKESH — Construction &amp; Buildings</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="contact-btn">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="home" aria-label="Hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h2 class="eyebrow">Luxury Construction</h2>
+        <h1 class="hero-title">Built with care. Built to last. Built for you.</h1>
+        <p class="hero-sub">From residential havens to commercial landmarks — expertise, precision and timeless design.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn primary">Get a Quote</a>
+          <a href="#projects" class="btn outline">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h3 class="section-title">Our Services</h3>
+        <p class="section-lead">End-to-end solutions: planning, construction, interiors and project management.</p>
+        <div class="cards">
+          <div class="card"><h4>Residential</h4><p>Villas, apartments & premium homes.</p></div>
+          <div class="card"><h4>Commercial</h4><p>Offices, showrooms & retail spaces.</p></div>
+          <div class="card"><h4>Renovation</h4><p>Interiors, facelifts & efficient redesigns.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section dark">
+      <div class="container">
+        <h3 class="section-title light">Selected Projects</h3>
+        <div class="project-grid">
+          <div class="project" style="background-image:url('https://images.unsplash.com/photo-1505691723518-36a8eae7e3f4?q=80&w=1200&auto=format&fit=crop&s=placeholder');"></div>
+          <div class="project" style="background-image:url('https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1200&auto=format&fit=crop&s=placeholder');"></div>
+          <div class="project" style="background-image:url('https://images.unsplash.com/photo-1505842465776-3e6b8d4a1b6a?q=80&w=1200&auto=format&fit=crop&s=placeholder');"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div class="about-text">
+          <h3 class="section-title">About Turtle Heights</h3>
+          <p>Founded by Arpana and Mukesh, Turtle Heights focuses on structural integrity, sustainable materials and strong client communication. We combine modern engineering with trusted craftsmanship.</p>
+          <ul class="bullets">
+            <li>Licensed contractors & certified engineers</li>
+            <li>Local suppliers & sustainable sourcing</li>
+            <li>Safety-first site management</li>
+          </ul>
+        </div>
+        <div class="about-image" style="background-image:url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1200&auto=format&fit=crop&s=placeholder');"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h3 class="section-title">Contact</h3>
+        <p class="section-lead">Start your project — we’ll respond quickly.</p>
+        <form class="contact-form" action="mailto:contact@turtleheights.example" method="post" enctype="text/plain">
+          <input name="name" placeholder="Your name" required>
+          <input name="email" placeholder="Your email" required>
+          <input name="phone" placeholder="Phone (optional)">
+          <textarea name="message" placeholder="Tell us about your project" rows="4" required></textarea>
+          <div class="form-actions"><button type="submit" class="btn primary">Send message</button></div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-inner container">
+        <div class="footer-left">
+          <div class="footer-title">TURTLE HEIGHTS – ARPANA MUKESH</div>
+          <div class="footer-sub">Construction &amp; Buildings</div>
+        </div>
+        <div class="footer-center">
+          <div class="addr">Turtle Heights, B-72, Symbois College Road</div>
+          <div class="phone">📞 <a href="tel:+916204502810">6204502810</a></div>
+        </div>
+        <div class="footer-right">
+          <a class="whatsapp" href="https://wa.me/916204502810" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2025 Turtle Heights. All rights reserved.</div>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
